@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/kevsaj/test2#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.3"
   }
 }
