@@ -46,6 +46,7 @@ const puppeteer = require('puppeteer');
     await page.keyboard.press('Tab');
     await page.keyboard.press('Tab');
     await page.keyboard.type('Happy Birthday!!');
+    // await page.keyboard.press('Enter');
 
 
     // await page.waitForNavigation({ waitUntil: 'networkidle0' });
