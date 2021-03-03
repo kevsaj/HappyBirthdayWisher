@@ -43,6 +43,8 @@ const puppeteer = require('puppeteer');
 
     // const name = await page.keyboard.down('Control'['C']);
 
+    // The Secret Sauce:
+
     const elementHandles = await page.$$('a');
     const propertyJsHandles = await Promise.all(
         elementHandles.map(handle => handle.getProperty('href'))
