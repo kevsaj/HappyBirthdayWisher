@@ -56,17 +56,11 @@ const puppeteer = require('puppeteer');
     console.log(hrefs2[51]);
 
     let a = hrefs2[51];
-
     let b = a.split('.')[2];
-
     let c = b.split('/')[1];
-
     const d = c.charAt(0).toUpperCase() + c.slice(1)
 
     console.log(d);
-
-    // console.log(hrefs2[54]);
-
 
     await page.mouse.click(363, 59);
 
@@ -74,6 +68,22 @@ const puppeteer = require('puppeteer');
     await page.keyboard.press('Tab');
     await page.keyboard.press('Tab');
     await page.keyboard.type(`Happy Birthday ${d}!!`);
+    // await page.keyboard.press('Enter');
+
+    console.log(hrefs2[54]);
+
+    let e = hrefs2[54];
+    let f = e.split('.')[2];
+    let g = f.split('/')[1];
+    const h = g.charAt(0).toUpperCase() + g.slice(1)
+
+    console.log(h);
+
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.type(`Happy Birthday ${h}!!`);
     // await page.keyboard.press('Enter');
 
 
