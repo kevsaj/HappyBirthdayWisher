@@ -1,3 +1,4 @@
+'use strict';
 require('dotenv').config({
     path: './.env'
 })
@@ -44,8 +45,24 @@ const puppeteer = require('puppeteer');
 
     await page.keyboard.press('Tab');
     await page.keyboard.press('Tab');
-    await page.keyboard.press('Tab');
-    await page.keyboard.type('Happy Birthday!!');
+
+    // const name = await page.keyboard.down('Control'['C']);
+
+    const elementHandles = await page.$$('a');
+    const propertyJsHandles = await Promise.all(
+        elementHandles.map(handle => handle.getProperty('href'))
+    );
+    const hrefs2 = await Promise.all(
+        propertyJsHandles.map(handle => handle.jsonValue())
+    );
+
+    console.log(hrefs2[51]);
+
+    console.log(hrefs2[54]);
+
+
+    // await page.keyboard.press('Tab');
+    // await page.keyboard.type('Happy Birthday!!');
     // await page.keyboard.press('Enter');
 
 
