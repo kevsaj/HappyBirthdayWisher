@@ -86,6 +86,38 @@ const puppeteer = require('puppeteer');
     await page.keyboard.type(`Happy Birthday ${h}!!`);
     // await page.keyboard.press('Enter');
 
+    console.log(hrefs2[57]);
+
+    let i = hrefs2[57];
+    let j = i.split('.')[2];
+    let k = j.split('/')[1];
+    const l = k.charAt(0).toUpperCase() + k.slice(1)
+
+    console.log(l);
+
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.type(`Happy Birthday ${l}!!`);
+    // await page.keyboard.press('Enter');
+
+    console.log(hrefs2[60]);
+
+    let m = hrefs2[60];
+    let n = m.split('.')[2];
+    let o = n.split('/')[1];
+    const p = o.charAt(0).toUpperCase() + o.slice(1)
+
+    console.log(p);
+
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await page.keyboard.type(`Happy Birthday ${p}!!`);
+    // await page.keyboard.press('Enter');
+
 
     // await page.waitForNavigation({ waitUntil: 'networkidle0' });
     // await page.waitForTimeout(5000);

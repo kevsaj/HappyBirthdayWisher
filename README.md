@@ -29,7 +29,7 @@ App is functional: [Video](https://github.com/kevsaj/README-Generator/blob/main/
 
 # Credits
 * The Universe - thanks
-* [Chris Burns](https://github.com/ckzard)- idea
+* [Chris Burns](https://github.com/ckzard) - idea
 * Google - I guess
 
 # License
