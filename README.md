@@ -11,7 +11,7 @@ This is my README for a personal project
 
 App is functional: [Video](https://github.com/kevsaj/HappyBirthdayWisher/blob/main/img/gif.gif)
 
-![Should Look like this lol](/img/gif.gif)
+![Should Look like this lol](/img/gif2.gif)
 # Installation
 * Learn Puppeteer magic!
 * Get Motivated
