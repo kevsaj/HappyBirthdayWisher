@@ -1,7 +1,7 @@
 {
-  "name": "worktest",
+  "name": "HappyBirthdayWisher",
   "version": "1.0.0",
-  "description": "",
+  "description": "Uses Puppeteer to make a HappyBirthdayWisher",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

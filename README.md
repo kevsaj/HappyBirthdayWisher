@@ -9,9 +9,9 @@ This is my README for a personal project
 * [Credits](#Credits)
 * [License](#License)
 
-App is functional: [Video](https://github.com/kevsaj/README-Generator/blob/main/img/Readme_Gen.mp4)
+App is functional: [Video](https://github.com/kevsaj/HappyBirthdayWisher/blob/main/img/gif.gif)
 
-![Should Look like this lol](/img/Screenshot_app.png)
+![Should Look like this lol](/img/gif.gif)
 # Installation
 * Learn Puppeteer magic!
 * Get Motivated
@@ -23,13 +23,13 @@ App is functional: [Video](https://github.com/kevsaj/README-Generator/blob/main/
 * Find all Birthdays today
 * Create personalized Birthday wish for Friends
 * Post message on their wall
+* Use Puppeteer to do this or actually remember
 
 # Usage
 * To practice with Puppeteer
 
 # Credits
 * The Universe - thanks
-* [Chris Burns](https://github.com/ckzard) - idea
 * Google - I guess
 
 # License
